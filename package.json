@@ -1,0 +1,20 @@
+{
+  "name": "com.megster.bluefruitle",
+  "version": "0.0.1",
+  "displayName": "DressingEverything",
+  "cordova": {
+    "platforms": [
+      "ios"
+    ],
+    "plugins": {
+      "cordova-plugin-ble-central": {
+        "BLUETOOTH_USAGE_DESCRIPTION": " "
+      }
+    }
+  },
+  "dependencies": {
+    "cordova-ios": "^4.5.4",
+    "cordova-plugin-ble-central": "^1.1.4",
+    "cordova-plugin-compat": "^1.2.0"
+  }
+}
